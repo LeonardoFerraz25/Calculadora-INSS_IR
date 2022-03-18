@@ -34,10 +34,10 @@ let salarioLiquido = (salarioReduzido - ir);
 
 
 
-resultado.innerHTML = `<h2>Valor do INSS : ${inss} </h2>`;
+resultado.innerHTML = `<h2>Valor do INSS : ${inss.toFixed(2)} </h2>`;
 
-resultado.innerHTML += `<h2>Valor do IR : ${ir}</h2>`;
+resultado.innerHTML += `<h2>Valor do IR : ${ir.toFixed(2)}</h2>`;
 
-resultado.innerHTML += `<h2>Salario Liquido : ${salarioLiquido}</h2>`;
+resultado.innerHTML += `<h2>Salario Liquido : ${salarioLiquido.toFixed(2)}</h2>`;
 
 }
